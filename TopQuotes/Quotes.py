@@ -82,7 +82,6 @@ class GoodRead():
         try:
             if not username:
                 raise ValueError('Empty email! please provide a proper email!')
-
             self.email = str(username)
             return self.email
         except ValueError as e:
@@ -146,7 +145,6 @@ class GoodRead():
                     return False
             except (mechanize.HTTPError,mechanize.URLError) as e:
                 print('Check Connection')
-
         except ValueError as e:
             self.exitcondition = True
             return e
@@ -160,13 +158,10 @@ class GoodRead():
         try:
             if num==0 or num<0:
                 raise ValueError('Number of quotes should be >=1')
-
             if type(num) is not int:
                 raise ValueError('Num of Quotes should be an Integer Value')
-
             if not all(x.isdigit() for x in str(num)):
                 raise ValueError('Num of Quotes should be an Integer Value')
-
             self.numQuotes = num
         except ValueError as e:
             self.exitcondition = True
@@ -227,7 +222,6 @@ class GoodRead():
         path = "./TopQuotes/Data/"
         with open(path+filename, 'w') as outfile:
             json.dump(data, outfile)
-
         print("-------------------------------------------------------")
         print("Check " + self.filename + " in ./TopQuotes/Data/ ")
         print("-------------------------------------------------------")
