@@ -13,7 +13,7 @@
 
 ## Running Sample:
 
-    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python TopQuotes/Quotes.py 
+    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE002 rupamkundu$ python TopQuotes/Quotes.py 
 
 ## To Exit VirtualEnv:
 
@@ -21,7 +21,7 @@
 
 ## Sample Output:
 
-    >> (venv) Rupams-MacBook-Pro:RUPKUNSDE001 rupamkundu$ python TopQuotes/Quotes.py 
+    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE002 rupamkundu$ python TopQuotes/Quotes.py 
     -------------------------------------------------
     ---------Authentication to Goodreads.com---------
     -------------------------------------------------
@@ -105,4 +105,33 @@
     9    
     Content    "Never tell the truth to people who are not worthy of it"
     Author    "Mark Twain"
+
+## Run Unit Test:
+    >>(venv) Rupams-MacBook-Pro:RUPKUNSDE002 rupamkundu$ python TopQuotes/Test_quotes.py
+    -------------------------------------------------
+    --------Unit Testing Framework: quotes.py--------
+    -------------------------------------------------
+    Please provide an author name properly.
+    .Please provide a Link properly
+    ..Empty email! please provide a proper email!
+    .Empty password! please provide a proper password!
+    .Name cannot contain Numbers! Enter proper author name !
+    .Name cannot contain Numbers! Enter proper author name !
+    .Number of quotes should be >=1
+    .Num of Quotes should be an Integer Value
+    .-------------------------------------------------------
+    Check  in ./TopQuotes/Data/ 
+    -------------------------------------------------------
+    ..-------------------------------------------------------
+    Check  in ./TopQuotes/Data/ 
+    -------------------------------------------------------
+    ..HTTPSConnectionPool(host='www.xxxxxxxxxxxs.com', port=443): Max retries exceeded with url: /quotes/search?&q=mark+twain&commit=Search (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105c78a50>: Failed to establish a new connection: [Errno 61] Connection refused',))
+    ..-------------------------------------------------------
+    Check  in ./TopQuotes/Data/ 
+    -------------------------------------------------------
+    .
+    ----------------------------------------------------------------------
+    Ran 16 tests in 6.386s
+    
+    OK
 
