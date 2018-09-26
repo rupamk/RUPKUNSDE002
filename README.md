@@ -2,7 +2,6 @@
 
 ## Requirement: 
     virtualenv==15.1.0
-    MAC OS
 
 ## Instructions to set-up:
     >>git clone git@github.com:rupamk/RUPKUNSDE001.git
