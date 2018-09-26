@@ -15,10 +15,6 @@
 
     python TopQuotes/Quotes.py 
 
-## To Exit VirtualEnv:
-
-    deactivate
-
 ## Sample Output:
 
     >>(venv) Rupams-MacBook-Pro:RUPKUNSDE002 rupamkundu$ python TopQuotes/Quotes.py 
@@ -134,4 +130,9 @@
     Ran 16 tests in 6.386s
     
     OK
+    
+  ## To Exit VirtualEnv:
+
+    deactivate
+
 
