@@ -64,7 +64,7 @@
     ********************************************************
 ## File Storage Format
 
-### Data is stored as "json" format inside ./GetFbPost/Data/ . The data shown above is stored as "Top_expedia_Facebook_Post.json":
+### Data is stored as "json" format inside ./GetFbPost/Data/ . JSON format provides easy parsing, lightweight and fast, and offers easy human readable format. The data shown above is stored as "Top_expedia_Facebook_Post.json":
 
     Quotes By:Mark Twain    
     0    
