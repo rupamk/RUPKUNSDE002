@@ -1,0 +1,64 @@
+2) Applying “Test Driven Development” concepts, create 3 unit testing artifacts to verify the code you will build using the following requirements. 
+“Write a script code that 
+2.1.) receives username and password when executed from the command line, 
+2.2.) authenticates to http://www.Goodreads.com  website. 
+2.3) Then it finds, retrieves, and stores in a file the top 10 most popular quotes from Mark Twain. 
+
+
+For email:
+
+	raw_input('Please Enter your GoodReads.com email address:')
+
+For password, to hide the input, getpass is used:
+
+	getpass.getpass('Please Enter your GoodReads.com password:')
+
+________________________________________________________
+
+For Authentication, I have used the mechanize library:
+
+	br = mechanize.Browser()
+	br.open(sign_in_url) #sign_in_url = https://www.goodreads.com/user/sign_in
+	br.select_form(name="sign_in")
+        br["user[email]"] =   email
+        br["user[password]"] = password
+        br.submit()
+        if (br.geturl()) == redirect_url: # redirect url is the page obtained after successful login
+              return True
+        else:
+              return False
+
+________________________________________________________
+
+
+I opted for normal HTML Parsing. Using requests:
+
+	page = requests.get(url, timeout=6.0)
+
+The content fetched by page is nothing but the HTML version of the webpage (which can also be obtained manually by right click on the webpage and selecting View Page Source)
+
+Now using Beautiful Soup from Python to parse the HTML output, I searched for the tags containing the desired information
+
+
+soup = BeautifulSoup(page.content, 'html.parser')
+quotes = soup.find_all('div', {'class': 'quoteText'})
+
+Then only those quotes are selected where author or author.lower() or author.upper() occurs in
+
+str(quotes[i].find("span", class_="authorOrTitle").text).rstrip().lstrip()
+
+
+________________________________________________________
+
+
+I have used JSON format for the data storage because of its dictionary kind of resemblance used in python.
+
+                         data[index].append({
+                            'Content': content,
+                            'Author': author
+                        }
+                        )
+
+________________________________________________________
+
+For testing, I have used Python unittest.
