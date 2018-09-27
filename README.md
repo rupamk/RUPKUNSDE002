@@ -131,6 +131,11 @@
     Ran 16 tests in 6.386s
     
     OK
+    
+  ## To Exit VirtualEnv:
+
+    deactivate
+
 
 ## To Exit VirtualEnv:
 
