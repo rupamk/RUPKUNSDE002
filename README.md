@@ -32,74 +32,70 @@
     
     Top 10 Quotes of Mark Twain
     ********************************************************
-    Quote 1:If you tell the truth, you don't have to remember anything
+    Quote 1:If you tell the truth, you don't have to remember anything.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 2:Good friends, good books, and a sleepy conscience: this is the ideal life
+    Quote 2:Good friends, good books, and a sleepy conscience: this is the ideal life.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 3:Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect)
+    Quote 3:Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).”    ―      Mark Twain  
     
     ********************************************************
-    Quote 4:The man who does not read has no advantage over the man who cannot read
+    Quote 4:The man who does not read has no advantage over the man who cannot read.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 5:Never put off till tomorrow what may be done day after tomorrow just as well
+    Quote 5:Never put off till tomorrow what may be done day after tomorrow just as well.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 6:′Classic′ - a book which people praise and don't read
+    Quote 6:′Classic′ - a book which people praise and don't read.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 7:I have never let my schooling interfere with my education
+    Quote 7:I have never let my schooling interfere with my education.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 8:The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time
+    Quote 8:The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 9:A lie can travel half way around the world while the truth is putting on its shoes
+    Quote 9:A lie can travel half way around the world while the truth is putting on its shoes.”    ―      Mark Twain  
     
     ********************************************************
-    Quote 10:Never tell the truth to people who are not worthy of it
+    Quote 10:Never tell the truth to people who are not worthy of it.”    ―      Mark Twain  
     
     ********************************************************
-    -------------------------------------------------------
-    Check Mark_Twain_top_quotes.json in ./TopQuotes/Data/ 
-    -------------------------------------------------------
-
 ## File Storage Format
 
 ### Data is stored as "json" format inside ./GetFbPost/Data/ . The data shown above is stored as "Top_expedia_Facebook_Post.json":
 
     Quotes By:Mark Twain    
     0    
-    Content    "If you tell the truth, you don't have to remember anything"
+    Content    "If you tell the truth, you don't have to remember anything.”    ―      Mark Twain  "
     Author    "Mark Twain"
     1    
-    Content    "Good friends, good books, and a sleepy conscience: this is the ideal life"
+    Content    "Good friends, good books, and a sleepy conscience: this is the ideal life.”    ―      Mark Twain  "
     Author    "Mark Twain"
     2    
-    Content    "Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect)"
+    Content    "Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).”    ―      Mark Twain  "
     Author    "Mark Twain"
     3    
-    Content    "The man who does not read has no advantage over the man who cannot read"
+    Content    "The man who does not read has no advantage over the man who cannot read.”    ―      Mark Twain  "
     Author    "Mark Twain"
     4    
-    Content    "Never put off till tomorrow what may be done day after tomorrow just as well"
+    Content    "Never put off till tomorrow what may be done day after tomorrow just as well.”    ―      Mark Twain  "
     Author    "Mark Twain"
     5    
-    Content    "′Classic′ - a book which people praise and don't read"
+    Content    "′Classic′ - a book which people praise and don't read.”    ―      Mark Twain  "
     Author    "Mark Twain"
     6    
-    Content    "I have never let my schooling interfere with my education"
+    Content    "I have never let my schooling interfere with my education.”    ―      Mark Twain  "
     Author    "Mark Twain"
     7    
-    Content    "The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time"
+    Content    "The fear of death follows from the fear of life. A man who lives fully is prepared to die at any time.”    ―      Mark Twain  "
     Author    "Mark Twain"
     8    
-    Content    "A lie can travel half way around the world while the truth is putting on its shoes"
+    Content    "A lie can travel half way around the world while the truth is putting on its shoes.”    ―      Mark Twain  "
     Author    "Mark Twain"
     9    
-    Content    "Never tell the truth to people who are not worthy of it"
+    Content    "Never tell the truth to people who are not worthy of it.”    ―      Mark Twain  "
     Author    "Mark Twain"
 
 ## Run Unit Test:
