@@ -23,7 +23,7 @@
     -------------------------------------------------
     Please Enter your GoodReads.com email address:rupam2422@gmail.com
     
-    Please Enter your GoodReads.com password:*******
+    Please Enter your GoodReads.com password:
     
     Authenticated!! You are now logged in!
     -------------------------------------------------------
@@ -115,28 +115,21 @@
     .Name cannot contain Numbers! Enter proper author name !
     .Name cannot contain Numbers! Enter proper author name !
     .Number of quotes should be >=1
-    .Num of Quotes should be an Integer Value
-    .-------------------------------------------------------
-    Check  in ./TopQuotes/Data/ 
-    -------------------------------------------------------
+    .Number of quotes should be <100
     ..-------------------------------------------------------
-    Check  in ./TopQuotes/Data/ 
+    Check inside  in ./TopQuotesGUI/Data/ 
     -------------------------------------------------------
-    ..HTTPSConnectionPool(host='www.xxxxxxxxxxxs.com', port=443): Max retries exceeded with url: /quotes/search?&q=mark+twain&commit=Search (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x105c78a50>: Failed to establish a new connection: [Errno 61] Connection refused',))
-    ..-------------------------------------------------------
-    Check  in ./TopQuotes/Data/ 
-    -------------------------------------------------------
+    ..HTTPSConnectionPool(host='www.xxxxxxxxxxxs.com', port=443): Max retries exceeded with url: /quotes/search?&q=mark+twain&commit=Search (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x104a99dd0>: Failed to establish a new connection: [Errno 61] Connection refused',))
+    ..Invalid URL 'quotes/search?&commit=Search&page=2&q=Mark Twain': No schema supplied. Perhaps you meant http://quotes/search?&commit=Search&page=2&q=Mark Twain?
     .
     ----------------------------------------------------------------------
-    Ran 16 tests in 6.386s
+    Ran 15 tests in 3.739s
     
     OK
+
     
   ## To Exit VirtualEnv:
 
     deactivate
 
 
-## To Exit VirtualEnv:
-
-    deactivate

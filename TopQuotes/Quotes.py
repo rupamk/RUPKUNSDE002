@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import json
 from requests import ReadTimeout, ConnectTimeout, HTTPError, Timeout, ConnectionError
 import unicodedata
+import getpass
 
 class GoodRead():
     def __init__(self):
@@ -294,7 +295,7 @@ if __name__ == "__main__":
     # print('')
     obj.set_email(raw_input('Please Enter your GoodReads.com email address:'))
     print('')
-    obj.set_password(raw_input('Please Enter your GoodReads.com password:'))
+    obj.set_password(getpass.getpass('Please Enter your GoodReads.com password:'))
     print('')
     if not obj.exitcondition:
         obj.set_credential()
